@@ -2,8 +2,15 @@
 
 body {
     font-family: 'Libre Franklin', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    position: relative;
 }
+
+
+/* Navbar */
+
+
+
 
 /* Jumbotron */
 
@@ -31,6 +38,7 @@ body {
      font-size: 90px;
      font-weight: 300;
      color: #fafafa;
+     padding-top: 5rem;
      
  }
 
@@ -40,15 +48,38 @@ body {
 
   h5{
     font-family: 'Libre Franklin', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
   }
 
-/* Cards */
+/* Coffee list and Cards */
+
+ .bg-color-coffee {
+    background-color: #06ad6c;
+}
 
 .card-thumbnail {
     background-color: #333;
     width: 100%;
     height: 225px;
+}
+
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-img {
+ border: 0;
+}
+
+
+/* Contact */
+
+.contact-form {
+    background-color: #00a6d0;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 /* Footer */
