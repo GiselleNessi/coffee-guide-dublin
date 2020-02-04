@@ -17,38 +17,28 @@
 
 <body>
 	<header>
-		<div class="collapse bg-dark" id="navbarHeader">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-md-7 py-4">
-						<h4 class="text-white">About</h4>
-						<p class="text-muted">The suburb of Stoneybatter, just north of the city centre, is one of
-							Dublin’s trendiest locales. While it still retains its original authenticity, with neon-lit
-							chippers and traditional pubs, it’s also home to some of the city’s best bars, restaurants
-							and cafés.</p>
-					</div>
-					<div class="col-sm-4 offset-md-1 py-4">
-						<h4 class="text-white">Contact</h4>
-						<ul class="list-unstyled">
-							<li><a href="#" class="text-white">Follow on Twitter</a></li>
-							<li><a href="#" class="text-white">Like on Facebook</a></li>
-							<li><a href="#" class="text-white">Email Us</a></li>
-						</ul>
-					</div>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">coffee | dublin</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
+      Navbar text with an inline element
+    </span>
 			</div>
-		</div>
-
-		<div class="navbar navbar-dark bg-dark shadow-sm">
-			<div class="container d-flex justify-content-between">
-				<a href="#" class="navbar-brand d-flex align-items-center">
-					<strong>Coffee</strong>
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navagitation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-			</div>
-		</div>
+		</nav>
 	</header>
 
 	<main role="main">
@@ -56,8 +46,7 @@
 		<section class="jumbotron text-center">
 			<div class="container">
 				<h1>Coffee Guide Dublin</h1>
-				<p class="lead text-muted">The suburb of Stoneybatter, just north of the city centre, is one of
-					Dublin’s trendiest locales.</p>
+				<h5>Explore the best coffee in Dublin. Period.</h5>
 				<p>
 					<a href="#" class="btn btn-primary my-2">Main call to action</a>
 					<a href="#" class="btn btn-secondary my-2">Secondary action</a>
@@ -70,16 +59,34 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
+							<a class="card-thumbnail"
+								href="#"><img src="https://burst.shopifycdn.com/photos/barista-pour-over-coffee-from-copper-kettle.jpg?width=4460&height=4460&exif=1&iptc=1&attachment=barista-pour-over-coffee-from-copper-kettle.jpg" width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"></a>
+
+								<div class="card-body">
+									<p class="card-text">The suburb of Stoneybatter, just north of the city centre, is
+										one
+										of Dublin’s trendiest locales.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+										</div>
+										<small class="text-muted">Dublin 1</small>
+									</div>
+								</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
 							<a class="card-thumbnail" href="#"></a>
 							<div class="card-body">
 								<p class="card-text">The suburb of Stoneybatter, just north of the city centre, is one
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 2</small>
 								</div>
 							</div>
 						</div>
@@ -93,10 +100,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 3</small>
 								</div>
 							</div>
 						</div>
@@ -110,10 +116,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 4</small>
 								</div>
 							</div>
 						</div>
@@ -127,10 +132,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 5</small>
 								</div>
 							</div>
 						</div>
@@ -144,10 +148,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 6</small>
 								</div>
 							</div>
 						</div>
@@ -161,10 +164,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 6</small>
 								</div>
 							</div>
 						</div>
@@ -178,10 +180,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 6</small>
 								</div>
 							</div>
 						</div>
@@ -195,27 +196,9 @@
 									of Dublin’s trendiest locales.</p>
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+										<button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
 									</div>
-									<small class="text-muted">9 mins</small>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="card mb-4 shadow-sm">
-							<a class="card-thumbnail" href="#"></a>
-							<div class="card-body">
-								<p class="card-text">The suburb of Stoneybatter, just north of the city centre, is one
-									of Dublin’s trendiest locales.</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-										<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-									</div>
-									<small class="text-muted">9 mins</small>
+									<small class="text-muted">Dublin 6</small>
 								</div>
 							</div>
 						</div>
@@ -227,6 +210,16 @@
 		</div>
 
 	</main>
+
+	<footer class="text-muted">
+		<div class="container">
+			<p class="float-right">
+				<a href="#">Back to top</a>
+			</p>
+			<p>Coffee Guide Dublin is a specialyty coffee guide for Dublin</p>
+			<p>New to Dublin? <a href="#">Follow us</a><a href="#">getting started guide</a>Keep in touch</p>
+		</div>
+	</footer>
 </body>
 
 </html>

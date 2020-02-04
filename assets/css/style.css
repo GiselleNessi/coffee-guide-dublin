@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio:100,200,300,400,500,600,700|Libre+Franklin:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #797BC2;
+  
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+  }  
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+ .jumbotron h1 {
+     font-family: 'Gelasio', serif;
+     font-size: 90px;
+     font-weight: 300;
+     color: #fafafa;
+     
+ }
+
+  .jumbotron .container {
+      max-width: 40rem;
+  }
+
+  h5{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+  }
+
+/* Cards */
+
 .card-thumbnail {
-    background-color: red;
+    background-color: #333;
     width: 100%;
     height: 225px;
+}
+
+/* Footer */
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
 }
