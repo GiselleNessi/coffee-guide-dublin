@@ -6,10 +6,9 @@ body {
     position: relative;
 }
 
-h5 {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 500;
-  }
+main {
+    background-color: #06ad6c;
+}
 
 h2, h1 {
     font-family: 'Libre Franklin', sans-serif;
@@ -18,6 +17,19 @@ h2, h1 {
     color: #fafafa;
     margin-bottom: 3rem;
   }
+
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #fafafa;
+}
+
+h5 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+  }
+
 
 
 
@@ -42,8 +54,6 @@ a:hover {
     background-color: #06ad6c;
     border-color: #06ad6c;
 }
-
-
 
 /* Carousel */
 
@@ -76,7 +86,7 @@ a:hover {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: 0;
-    background-color: #06ad6c;
+    background-color: #797bc2;
   
 }
 
@@ -108,7 +118,7 @@ a:hover {
 /* Coffee list and Cards */
 
  .bg-color-coffee {
-    background-color: #797bc2 ;
+    background-color: #06ad6c; 
 }
 
 .card-thumbnail {
