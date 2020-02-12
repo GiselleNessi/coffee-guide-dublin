@@ -11,16 +11,39 @@ h5 {
     font-weight: 500;
   }
 
-h2 {
+h2, h1 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
     text-align: center;
     color: #fafafa;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
 
+
+
 /* Navbar */
+
+a {
+    color: #06ad6c;
+}
+
+a:hover {
+    color: #03623d;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #06ad6c;
+}
+
+/* Buttons */
+
+.btn-primary {
+    background-color: #06ad6c;
+    border-color: #06ad6c;
+}
+
+
 
 /* Carousel */
 
@@ -85,7 +108,7 @@ h2 {
 /* Coffee list and Cards */
 
  .bg-color-coffee {
-    background-color: #f1796d;
+    background-color: #797bc2 ;
 }
 
 .card-thumbnail {
@@ -108,13 +131,18 @@ h2 {
 
 
 .contact-form {
-    background-color: #e9a83e;
-    text-align:  center;
+    background-color: #e05d53;
+    text-align:  left;;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
 /* Footer */
+
+i {
+    margin-left: 1rem;
+    letter-spacing: 0.3rem;
+}
 
 footer {
     padding-top: 3rem;
@@ -126,6 +154,8 @@ footer p {
 }
 
 /* Dublin city north styles */
+
+
 
 /* Featurettes */
 
