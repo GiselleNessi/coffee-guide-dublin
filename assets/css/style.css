@@ -67,6 +67,17 @@ a:hover {
   z-index: 10;
 }
 
+.carousel-caption h1 {
+    font-family: 'Gelasio', serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #797bc2;
+}
+
+.carousel-caption p {
+    color: rgba(0,0,0,.9);
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
@@ -103,7 +114,7 @@ a:hover {
 
  .jumbotron h1 {
      font-family: 'Gelasio', serif;
-     font-size: 90px;
+     font-size: 75px;
      font-weight: 300;
      color: #fafafa;
      padding-top: 5rem;
