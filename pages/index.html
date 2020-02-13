@@ -12,7 +12,7 @@
 	<title>Coffee Guide Ireland</title>
 </head>
 
-<!--- Navbar/Menu -->
+<!--- NAV MENU -->
 
 <body data-spy="scroll" data-target="#navbar-coffee" data-offset="0">
 	<header>
@@ -23,7 +23,7 @@
 					<a class="nav-link" href="index.html">Home</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#cafes" role="button"
 						aria-haspopup="true" aria-expanded="false">Cafés</a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#one">one</a>
@@ -45,18 +45,20 @@
 	</header>
 
 	<main role="main">
-		<!--- Jumbotron -->
+
+		<!--- JUMBOTRON -->
 		<section class="jumbotron text-center">
 			<div class="container" id="home">
 				<h1>Speciality Coffee Guide </h1>
 				<h5>Explore the best coffee in Ireland. Period.</h5>
 				<p>
 					<a href="#" class="btn btn-primary my-2">Main call to action</a>
-					
+
 				</p>
 			</div>
 		</section>
-		<!--- Cafes places lists -->
+
+		<!--- CAFES/ PLACES -->
 		<div class="coffee py-5 bg-color-coffee" id="cafes">
 			<div class="container">
 				<h2>Select the location you want to explore <i class="fas fa-mug-hot"></i></h2>
@@ -168,12 +170,18 @@
 			</div>
 		</div>
 
-		<!--- Contact form -->
+		<!--- FORM TO ADD CAFE -->
+
 		<section class="contact-form">
 			<div class="container" id="contact">
 				<h1>Coffee Guide Dublin</h1>
 				<h3>Did we missed your favorite cafe? Get in touch to let us know</h3>
 				</br>
+
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
+    More info <i class="fas fa-chevron-down"></i>
+  </button>
+                <div  class="collapse" id="cafeForm">
 				<form>
 					<div class="form-row">
 						<div class="form-group col-md-6">
@@ -220,12 +228,15 @@
 													</div>
 													<button type="submit" class="btn btn-primary">Sign in</button>
 				</form>
+                </div>
 			</div>
+			
 
 
 		</section>
 	</main>
-	<!--- Footer -->
+
+	<!--- FOOTER -->
 	<footer class="text-muted">
 		<div class="container">
 			<p class="float-right">
@@ -239,7 +250,7 @@
 	</footer>
 
 
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- jQuery ,  Popper.js,  Bootstrap JS -->
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
