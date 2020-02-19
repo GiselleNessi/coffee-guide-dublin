@@ -5,6 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 	<script src="https://kit.fontawesome.com/bc13f3adc8.js" crossorigin="anonymous"></script>
@@ -13,36 +22,21 @@
 </head>
 
 <!--- NAV MENU -->
-
 <body data-spy="scroll" data-target="#navbar-coffee" data-offset="0">
 	<header>
 		<nav id="navbar-coffee" class="navbar navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="../index.html">coffee | ireland</a>
 			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="../index.html">Home</a>
-				</li>
-				
-                <li class="nav-item">
-					<a class="nav-link" href="#cafes">Cafés</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-
+				<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#cafes">Cafés</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
-		</nav>
-
-		</div>
 		</nav>
 	</header>
 
-
 	<main role="main">
 
-    <!-- CAROUSEL -->
-
+		<!-- CAROUSEL -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -51,7 +45,6 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-
 					<img src="../assets/images/img-cork/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg" style='height: 600; width: 100%; object-fit: cover'>
 					<div class="container">
 						<div class="carousel-caption">
@@ -82,45 +75,33 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<!-- START THE FEATURETTES -->
 		<div class="container" id="cafes">
-
 			<div class="row featurette">
 				<div class="col-md-7">
 					<h3 class="featurette-heading text-left">Cork Coffee Roasters</h3>
 					<p class="lead">Coffee and cakes amid vintage decor and coffee making ephemera in cafe with its own
 						micro-roaster.</p>
-
 					<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseCork" aria-expanded="false" aria-controls="collapseCork">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-					</p>
-
+                    More info <i class="fas fa-chevron-down"></i></button>
 					<div class="collapse" id="collapseCork">
 						<div class="card card-body">
 							<p><i class="fas fa-external-link-alt"></i><a
 									href="https://www.google.com/maps/place/Cork+Coffee+Roasters/@51.90149,-8.4700007,15z/data=!4m5!3m4!1s0x0:0x458aaa0ae78af8!8m2!3d51.90149!4d-8.4700007"
 									target="_blank"> Open In Google Maps</p></a>
 							<p><i class="fas fa-map-marker-alt"></i> 2 Bridge St, Victorian Quarter, Cork</p>
-							<p><i class="fas fa-desktop"></i><a href="https://corkcoffeeroasters.ie/"> Visit website</p>
-							</a>
-							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/CorkCoffee/">
-									Follow</p></a>
+							<p><i class="fas fa-desktop"></i><a href="https://corkcoffeeroasters.ie/"> Visit website</p></a>
+							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/CorkCoffee/">Follow</p></a>
 						</div>
 					</div>
-
 				</div>
 				<div class="col-md-5">
 					<img src="../assets/images/img-cork/andy-falconer-dwQRixazu9I-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-
 				</div>
 				</div>
-
 				<hr class="featurette-divider">
-
 				<div class="row featurette">
 					<div class="col-md-7 order-md-2">
 						<h3 class="featurette-heading text-left">Dukes Coffee Company</h3>
@@ -128,12 +109,8 @@
 							roasting, but Dukes was far ahead of the trend when they set out a policy of supporting
 							Irish
 							roasters way back in 2005. </p>
-
 						<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseDukes" aria-expanded="false" aria-controls="collapseDukes">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-						</p>
-
+                        More info <i class="fas fa-chevron-down"></i></button>
 						<div class="collapse" id="collapseDukes">
 							<div class="card card-body">
 								<p><i class="fas fa-external-link-alt"></i><a
@@ -141,19 +118,15 @@
 										target="_blank"> Open In Google Maps</p></a>
 								<p><i class="fas fa-map-marker-alt"></i> 4 Carey's Ln, Centre, Cork</p>
 								<p><i class="fas fa-desktop"></i><a href="http://www.dukes.ie/"> Visit website</p></a>
-								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/dukescoffeecork/">
-										Follow</p></a>
+								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/dukescoffeecork/">Follow</p></a>
 							</div>
 						</div>
-
 					</div>
 					<div class="col-md-5 order-md-1">
 						<img src="../assets/images/img-cork/glass-coffee-pour.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                    </div>
 					</div>
-
 					<hr class="featurette-divider">
-
 					<div class="row featurette">
 						<div class="col-md-7">
 							<h3 class="featurette-heading text-left">Filter</h3>
@@ -161,45 +134,30 @@
 								need to stay fortified to manage the crowds. Joe McNamee tells us exactly where to eat
 								so
 								you can avoid hanger and stay focused on the job at hand.</p>
-
-							<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-							</p>
-
+                            <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseFilter" aria-expanded="false" aria-controls="collapseFilter">
+                            More info <i class="fas fa-chevron-down"></i></button>
 							<div class="collapse" id="collapseFilter">
 								<div class="card card-body">
 									<p><i class="fas fa-external-link-alt"></i><a
 											href="https://www.google.com/maps/place/Filter/@51.8953764,-8.4719952,15z/data=!4m5!3m4!1s0x0:0xfb32d97c25f539da!8m2!3d51.8953764!4d-8.4719952"
 											target="_blank"> Open In Google Maps</p></a>
 									<p><i class="fas fa-map-marker-alt"></i> 19 George's Quay, Ballintemple, Cork</p>
-
-									<p><i class="fab fa-facebook-f"></i><a
-											href="https://www.facebook.com/F-I-L-T-E-R-537055749645261/">
-											Follow</p></a>
+									<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/F-I-L-T-E-R-537055749645261/">Follow</p></a>
 								</div>
 							</div>
-
 						</div>
 						<div class="col-md-5">
 							<img src="../assets/images/img-cork/tall-latte-at-cafe.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
-						</div>
-
+                        </div>
+					</div>
 						<hr class="featurette-divider">
-
 						<div class="row featurette">
 							<div class="col-md-7 order-md-2">
 								<h3 class="featurette-heading text-left">Lab 82 Coffee</h3>
-								<p class="lead">Espresso, Filter, Teas, Bakery, Fun, Voted Best Coffe - Best of Cork
-									Awards
-									2019 </p>
-
+								<p class="lead">Espresso, Filter, Teas, Bakery, Fun, Voted Best Coffe - Best of Cork Awards 2019 </p>
 								<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseLab" aria-expanded="false" aria-controls="collapseLab">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
+                                More info <i class="fas fa-chevron-down"></i></button>
 								</p>
-
 								<div class="collapse" id="collapseLab">
 									<div class="card card-body">
 										<p><i class="fas fa-external-link-alt"></i><a
@@ -216,11 +174,9 @@
 							</div>
 							<div class="col-md-5 order-md-1">
 								<img src="../assets/images/img-cork/kaylah-otto-6e5hgWV2DAo-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                            </div>
 							</div>
-
 							<hr class="featurette-divider">
-
 							<div class="row featurette">
 								<div class="col-md-7">
 									<h3 class="featurette-heading text-left">Soma Coffee Company</h3>
@@ -229,12 +185,9 @@
 										coffee to the public and in doing so we have opened a lot of eyes and been able
 										to
 										expand into our own coffee roasting endeavour.</p>
-
 									<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseSoma" aria-expanded="false" aria-controls="collapseSoma">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
+                                    More info <i class="fas fa-chevron-down"></i></button>
 									</p>
-
 									<div class="collapse" id="collapseSoma">
 										<div class="card card-body">
 											<p><i class="fas fa-external-link-alt"></i><a
@@ -246,15 +199,12 @@
 													Follow</p></a>
 										</div>
 									</div>
-
 								</div>
 								<div class="col-md-5">
 									<img src="../assets/images/img-cork/toa-heftiba-6bKpHAun4d8-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
-								</div>
-
+                                </div>
+							</div>
 								<hr class="featurette-divider">
-
 								<div class="row featurette">
 									<div class="col-md-7 order-md-2">
 										<h3 class="featurette-heading text-left">Three Fools Coffee</h3>
@@ -263,10 +213,8 @@
 											sourcing of the best beans from around the globe. </p>
 
 										<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseFools" aria-expanded="false" aria-controls="collapseFools">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
+                                        More info <i class="fas fa-chevron-down"></i></button>
 										</p>
-
 										<div class="collapse" id="collapseFools">
 											<div class="card card-body">
 												<p><i class="fas fa-external-link-alt"></i><a
@@ -280,53 +228,82 @@
 														Follow</p></a>
 											</div>
 										</div>
-
 									</div>
 									<div class="col-md-5 order-md-1">
 										<img src="../assets/images/img-cork/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
-									</div>
-
+                                    </div>
 								</div>
+		</div>
 								<!-- /END THE FEATURETTES -->
 
-								<section class="contact-form">
-									<div class="container" id="contact">
-										<h1>Coffee Guide Dublin</h1>
-										<h5>Did we missed your favorite cafe? Get in touch to let us know</h5>
-										<p>
-											<a href="#" class="btn btn-primary my-2">Main call to action</a>
+		<!--- FORM TO ADD CAFE -->
+		<section class="contact-form">
+			<div class="container" id="contact">
+				<h1>Coffee Guide Ireland</h1>
+				<h3>Did we miss your favourite cafe? Get in touch to let us know.</h3>
+				</br>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
+                More info <i class="fas fa-chevron-down"></i></button>
+                <div  class="collapse" id="cafeForm">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Name</label>
+							<input type="email" class="form-control" id="inputEmail4">
+                        </div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">City</label>
+							<input type="password" class="form-control" id="inputPassword4">
+                        </div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+					<div class="form-group">
+						<label for="inputFacebook">Facebook</label>
+						<input type="text" class="form-control" id="inputFacebook" placeholder="Facebook page">
+                    </div>
+					<div class="form-group">
+						<label for="inputTwitter">Twitter</label>
+						<input type="text" class="form-control" id="inputTwitter" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputInstagram">Instagram</label>
+						<input type="text" class="form-control" id="inputInstagram" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Website</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Cafe website">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Why should this cafe be featured on this website?</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Amazing coffee...">
+                    </div>
 
-										</p>
-									</div>
-								</section>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">Check me out</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign in</button>
+				</form>
+                </div>
+			</div>
+		</section>
 
 	</main>
 
-<!-- FOOTER -->
+	<!-- FOOTER -->
 	<footer class="text-muted">
 		<div class="container">
-			<p class="float-right">
-				<a href="#">Back to top</a>
-			</p>
+			<p class="float-right"><a href="#">Back to top</a></p>
 			<p>Coffee Guide Ireland is a speciality coffee guide for Ireland</p>
 			<p>Follow us <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a
 					href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a><a
 					href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></p>
 		</div>
 	</footer>
-
-
-	<!-- jQuery ,  Popper.js,  Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 </body>
-
 </html>
