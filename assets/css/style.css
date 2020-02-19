@@ -47,6 +47,11 @@ a:hover {
 /* BUTTONS */
 
 .btn-primary {
+    background-color: #06ad6c;
+    border-color: #06ad6c;
+}
+
+.btn-secondary {
     margin: auto;
     display: block;
     background-color: #06ad6c;
@@ -91,7 +96,6 @@ a:hover {
 .carousel-item img {
   filter: brightness(70%);
 }
-
 
 /* JUMBOTRON */
 
