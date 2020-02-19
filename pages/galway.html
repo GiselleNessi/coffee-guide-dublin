@@ -5,6 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 	<script src="https://kit.fontawesome.com/bc13f3adc8.js" crossorigin="anonymous"></script>
@@ -13,36 +22,21 @@
 </head>
 
 <!--- NAV MENU -->
-
 <body data-spy="scroll" data-target="#navbar-coffee" data-offset="0">
 	<header>
 		<nav id="navbar-coffee" class="navbar navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="../index.html">coffee | ireland</a>
 			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="../index.html">Home</a>
-				</li>
-				
-                <li class="nav-item">
-					<a class="nav-link" href="#cafes">Cafés</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-
+				<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cafes">Cafés</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
 		</nav>
-
-		</div>
-		</nav>
 	</header>
-
 
 	<main role="main">
 
 		<!--- CAROUSEL -->
-
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -51,7 +45,6 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-
 					<img src="../assets/images/img-galway/daan-evers-tKN1WXrzQ3s-unsplash.jpg" style='height: 600; width: 100%; object-fit: cover'>
 					<div class="container">
 						<div class="carousel-caption">
@@ -82,162 +75,166 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<!-- START THE FEATURETTES -->
 		<div class="container" id="cafes">
-
 			<div class="row featurette">
 				<div class="col-md-7">
 					<h3 class="featurette-heading text-left">Coffeewerk + Press</h3>
 					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
 						euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
 						tellus ac cursus commodo.</p>
-
 					<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapsePress" aria-expanded="false" aria-controls="collapsePress">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-					</p>
-
-					<div class="collapse" id="collapsePress">
+                    More info <i class="fas fa-chevron-down"></i></button>
+                    <div class="collapse" id="collapsePress">
 						<div class="card card-body">
 							<p><i class="fas fa-external-link-alt"></i><a
 									href="https://www.google.com/maps/place/Coffeewerk+%2B+Press/@53.2713428,-9.0539638,15z/data=!4m5!3m4!1s0x0:0x1a501497be67831!8m2!3d53.2713428!4d-9.0539638"
 									target="_blank"> Open In Google Maps</p></a>
 							<p><i class="fas fa-map-marker-alt"></i> 4 Quay St, Galway</p>
-							<p><i class="fas fa-desktop"></i><a href="https://coffeewerkandpress.com/"> Visit website
-							</p></a>
-							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/coffeewerkandpress/">
-									Follow</p></a>
+							<p><i class="fas fa-desktop"></i><a href="https://coffeewerkandpress.com/"> Visit website</p></a>
+							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/coffeewerkandpress/">Follow</p></a>
 						</div>
 					</div>
-
 				</div>
 				<div class="col-md-5">
 					<img src="../assets/images/img-galway/espresso-in-small-cup (1).jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
-				</div>
-
+                </div>
+			</div>
 				<hr class="featurette-divider">
-
 				<div class="row featurette">
 					<div class="col-md-7 order-md-2">
 						<h3 class="featurette-heading text-left">Little Lane Coffee Company</h3>
 						<p class="lead">
 							Warm, friendly and great coffee! All round a great cosy spot for a chat, study or work.
 							Sitting outside on a sunny day is also lovely.</p>
-
 						<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseLittle" aria-expanded="false" aria-controls="collapseLittle">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-						</p>
-
+                        More info <i class="fas fa-chevron-down"></i></button>
 						<div class="collapse" id="collapseLittle">
 							<div class="card card-body">
 								<p><i class="fas fa-external-link-alt"></i><a
 										href="https://www.google.com/maps/place/Clement+%26+Pekoe/@53.3415338,-6.2649483,17z/data=!3m1!4b1!4m5!3m4!1s0x4867089ef78ba80f:0x140ae5efd0d0213!8m2!3d53.3415338!4d-6.2627596?shorturl=1"
 										target="_blank"> Open In Google Maps</p></a>
 								<p><i class="fas fa-map-marker-alt"></i> 10 Abbeygate Street Upper, Galway</p>
-
-								<p><i class="fab fa-facebook-f"></i><a
-										href="https://www.facebook.com/littlelanecoffeecompany/">
-										Follow</p></a>
+								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/littlelanecoffeecompany/">Follow</p></a>
 							</div>
 						</div>
-
 					</div>
 					<div class="col-md-5 order-md-1">
 						<img src="../assets/images/img-galway/row-of-pour-over-coffee-being-brewed.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                    </div>
 					</div>
-
 					<hr class="featurette-divider">
-
 					<div class="row featurette">
 						<div class="col-md-7">
 							<h3 class="featurette-heading text-left">Matt’s
 								Sandwiches</h3>
 							<p class="lead">It's not just a sandwich place..it's an experience. Quality ingredients.</p>
-
 							<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMatts" aria-expanded="false" aria-controls="collapseMatts">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-							</p>
-
+                            More info <i class="fas fa-chevron-down"></i></button>
 							<div class="collapse" id="collapseMatts">
 								<div class="card card-body">
 									<p><i class="fas fa-external-link-alt"></i><a
 											href="https://www.google.com/maps/place/Matt's+Sandwiches/@53.2810954,-9.0646011,15z/data=!4m5!3m4!1s0x0:0x1f0ddf6c7ce4b6fe!8m2!3d53.2810954!4d-9.0646011"
 											target="_blank"> Open In Google Maps</p></a>
 									<p><i class="fas fa-map-marker-alt"></i> 40 Lower Newcastle, Galway</p>
-									<p><i class="fas fa-desktop"></i><a href="http://mattssandwiches.ie/"> Visit
-											website</p></a>
-									<p><i class="fab fa-facebook-f"></i><a
-											href="https://www.facebook.com/mattssandwichesgalway/">
-											Follow</p></a>
+									<p><i class="fas fa-desktop"></i><a href="http://mattssandwiches.ie/"> Visit website</p></a>
+									<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mattssandwichesgalway/">Follow</p></a>
 								</div>
 							</div>
-
 						</div>
 						<div class="col-md-5">
 							<img src="../assets/images/img-galway/toa-heftiba-6bKpHAun4d8-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                        </div>
 						</div>
-
 						<hr class="featurette-divider">
-
 						<div class="row featurette">
 							<div class="col-md-7 order-md-2">
 								<h3 class="featurette-heading text-left">TreeBark Store</h3>
 								<p class="lead">
 									Serving specialty coffee from local roasters, gifts by local artists and makers,
 									podcasting and on site events and much more.</p>
-
 								<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-								</p>
-
+                                More info <i class="fas fa-chevron-down"></i></button>
 								<div class="collapse" id="collapseTree">
 									<div class="card card-body">
 										<p><i class="fas fa-external-link-alt"></i><a
 												href="https://www.google.com/maps/place/TreeBark+Store/@53.3386958,-9.1811167,15z/data=!4m5!3m4!1s0x0:0xa81454f15a00c68!8m2!3d53.3386958!4d-9.1811167"
 												target="_blank"> Open In Google Maps</p></a>
-										<p><i class="fas fa-map-marker-alt"></i> Kilrainey Shopping Centre, Moycullen,
-											Co. Galway</p>
-										<p><i class="fas fa-desktop"></i><a href="https://treebarkstore.com/"> Visit
-												website</p></a>
-										<p><i class="fab fa-facebook-f"></i><a
-												href="https://www.facebook.com/treebarkstore/">
-												Follow</p></a>
+										<p><i class="fas fa-map-marker-alt"></i> Kilrainey Shopping Centre, Moycullen, Co. Galway</p>
+										<p><i class="fas fa-desktop"></i><a href="https://treebarkstore.com/"> Visit website</p></a>
+										<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/treebarkstore/">Follow</p></a>
 									</div>
 								</div>
-
 							</div>
 							<div class="col-md-5 order-md-1">
 								<img src="../assets/images/img-galway/daan-evers-tKN1WXrzQ3s-unsplash.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                            </div>
 							</div>
-
 						</div>
 						<!-- /END THE FEATURETTES -->
 
-						<section class="contact-form">
-							<div class="container" id="contact">
-								<h1>Coffee Guide Ireland</h1>
-								<h5>Did we miss your favourite cafe? Get in touch to let us know</h5>
-								<p>
-									<a href="#" class="btn btn-primary my-2">Main call to action</a>
+						<!--- FORM TO ADD CAFE -->
+		<section class="contact-form">
+			<div class="container" id="contact">
+				<h1>Coffee Guide Ireland</h1>
+				<h3>Did we miss your favourite cafe? Get in touch to let us know.</h3>
+				</br>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
+                More info <i class="fas fa-chevron-down"></i></button>
+                <div  class="collapse" id="cafeForm">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Name</label>
+							<input type="email" class="form-control" id="inputEmail4">
+                        </div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">City</label>
+							<input type="password" class="form-control" id="inputPassword4">
+                        </div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+					<div class="form-group">
+						<label for="inputFacebook">Facebook</label>
+						<input type="text" class="form-control" id="inputFacebook" placeholder="Facebook page">
+                    </div>
+					<div class="form-group">
+						<label for="inputTwitter">Twitter</label>
+						<input type="text" class="form-control" id="inputTwitter" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputInstagram">Instagram</label>
+						<input type="text" class="form-control" id="inputInstagram" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Website</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Cafe website">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Why should this cafe be featured on this website?</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Amazing coffee...">
+                    </div>
 
-								</p>
-							</div>
-						</section>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">Check me out</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign in</button>
+				</form>
+                </div>
+			</div>
+		</section>
 
 	</main>
 
 	<!--- FOOTER -->
-
 	<footer class="text-muted">
 		<div class="container">
 			<p class="float-right">
@@ -249,18 +246,5 @@
 					href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></p>
 		</div>
 	</footer>
-
-
-	<!-- jQuery ,  Popper.js,  Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 </body>
-
 </html>

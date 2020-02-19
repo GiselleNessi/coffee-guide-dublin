@@ -30,10 +30,6 @@ h5 {
     font-weight: 500;
   }
 
-
-
-
-
 /* NAV MENU */
 
 a {
@@ -51,6 +47,8 @@ a:hover {
 /* BUTTONS */
 
 .btn-primary {
+    margin: auto;
+    display: block;
     background-color: #06ad6c;
     border-color: #06ad6c;
 }
@@ -78,14 +76,12 @@ a:hover {
     color: #fff;
 }
 
-
 .carousel-item {
   height: 32rem;
 }
 
-
 .carousel-item > img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;

@@ -5,6 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 	<script src="https://kit.fontawesome.com/bc13f3adc8.js" crossorigin="anonymous"></script>
@@ -13,36 +22,21 @@
 </head>
 
 <!-- NAV MENU -->
-
 <body data-spy="scroll" data-target="#navbar-coffee" data-offset="0">
 	<header>
 		<nav id="navbar-coffee" class="navbar navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="../index.html">coffee | ireland</a>
 			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link" href="../index.html">Home</a>
-				</li>
-				
-                <li class="nav-item">
-					<a class="nav-link" href="#cafes">Cafés</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-
+				<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cafes">Cafés</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
 		</nav>
-
-		</div>
-		</nav>
 	</header>
-
 
 	<main role="main">
 
 		<!-- CAROUSEL -->
-
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -51,7 +45,6 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-
 					<img src="../assets/images/img-county-north/coffee-date.jpg" style='height: 600; width: 100%; object-fit: cover'>
 					<div class="container">
 						<div class="carousel-caption">
@@ -82,23 +75,17 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<!-- START THE FEATURETTES -->
-        
 		<div class="container" id="cafes">
 			<div class="row featurette">
 				<div class="col-md-7">
 					<h3 class="featurette-heading text-left">Ebb & Flow</h3>
 					<p class="lead">We use specialty graded coffee, ensuring our customers experience a delicious cup
 						every time. Stop by and see what's good.</p>
-
 					<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseEbb" aria-expanded="false" aria-controls="collapseEbb">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-					</p>
-
+                    More info <i class="fas fa-chevron-down"></i></button>
 					<div class="collapse" id="collapseEbb">
 						<div class="card card-body">
 							<p><i class="fas fa-external-link-alt"></i><a
@@ -110,26 +97,21 @@
 									Follow</p></a>
 						</div>
 					</div>
-
 				</div>
 				<div class="col-md-5">
 					<img src="../assets/images/img-county-north/tall-latte-at-cafe.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                </div>
 				</div>
-
 				<hr class="featurette-divider">
-
 				<div class="row featurette">
 					<div class="col-md-7 order-md-2">
 						<h3 class="featurette-heading text-left">Happy Out</h3>
 						<p class="lead">Happy Out is Bull Island's only cafe, serving specialty coffee and tasty,
 							homemade, made-to-order toasties.</p>
-
 						<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseHappy" aria-expanded="false" aria-controls="collapseHappy">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
+                        More info <i class="fas fa-chevron-down"></i>
+                        </button>
 						</p>
-
 						<div class="collapse" id="collapseHappy">
 							<div class="card card-body">
 								<p><i class="fas fa-external-link-alt"></i><a
@@ -142,27 +124,21 @@
 										Follow</p></a>
 							</div>
 						</div>
-
 					</div>
 					<div class="col-md-5 order-md-1">
 						<img src="../assets/images/img-county-north/row-of-pour-over-coffee-being-brewed.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                    </div>
 					</div>
-
 					<hr class="featurette-divider">
-
 					<div class="row featurette">
 						<div class="col-md-7">
 							<h3 class="featurette-heading text-left">Bodega Coffee</h3>
 							<p class="lead">Bodega is a specialty coffee shop based in Howth Co. Dublin. Located in the
 								vibrant Howth Market complex, we strive to offer organic, ethically sourced coffees to
 								locals and tourists alike. </p>
-
 							<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseBodega" aria-expanded="false" aria-controls="collapseBodega">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-							</p>
-
+                            More info <i class="fas fa-chevron-down"></i>
+                            </button>
 							<div class="collapse" id="collapseBodega">
 								<div class="card card-body">
 									<p><i class="fas fa-external-link-alt"></i><a
@@ -175,26 +151,19 @@
 											Follow</p></a>
 								</div>
 							</div>
-
 						</div>
 						<div class="col-md-5">
 							<img src="../assets/images/img-county-north/iced-latte-at-coffee-shop-window.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                        </div>
 						</div>
-
 						<hr class="featurette-divider">
-
 						<div class="row featurette">
 							<div class="col-md-7 order-md-2">
 								<h3 class="featurette-heading text-left">Two Boys Brew</h3>
 								<p class="lead">Ease yourself gently into the day with Two Boys Brew’s relaxed
 									atmosphere and carefully selected coffee</p>
-
 								<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseBoys" aria-expanded="false" aria-controls="collapseBoys">
-    More info <i class="fas fa-chevron-down"></i>
-  </button>
-								</p>
-
+                                More info <i class="fas fa-chevron-down"></i></button>
 								<div class="collapse" id="collapseBoys">
 									<div class="card card-body">
 										<p><i class="fas fa-external-link-alt"></i><a
@@ -208,26 +177,70 @@
 												Follow</p></a>
 									</div>
 								</div>
-
 							</div>
 							<div class="col-md-5 order-md-1">
 								<img src="../assets/images/img-county-north/coffee-date.jpg" width="400" height="400" background="#eee" color="#aaa" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
-      </div>
+                            </div>
 							</div>
-
 						</div>
 						<!-- /END THE FEATURETTES -->
 
-						<section class="contact-form">
-							<div class="container" id="contact">
-								<h1>Coffee Guide Ireland</h1>
-								<h5>Did we miss your favourite cafe? Get in touch to let us know.</h5>
-								<p>
-									<a href="#" class="btn btn-primary my-2">Main call to action</a>
+						<!--- FORM TO ADD CAFE -->
+		<section class="contact-form">
+			<div class="container" id="contact">
+				<h1>Coffee Guide Ireland</h1>
+				<h3>Did we miss your favourite cafe? Get in touch to let us know.</h3>
+				</br>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
+                More info <i class="fas fa-chevron-down"></i></button>
+                <div  class="collapse" id="cafeForm">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Name</label>
+							<input type="email" class="form-control" id="inputEmail4">
+                        </div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">City</label>
+							<input type="password" class="form-control" id="inputPassword4">
+                        </div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+					<div class="form-group">
+						<label for="inputFacebook">Facebook</label>
+						<input type="text" class="form-control" id="inputFacebook" placeholder="Facebook page">
+                    </div>
+					<div class="form-group">
+						<label for="inputTwitter">Twitter</label>
+						<input type="text" class="form-control" id="inputTwitter" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputInstagram">Instagram</label>
+						<input type="text" class="form-control" id="inputInstagram" placeholder="@cafe">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Website</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Cafe website">
+                    </div>
+					<div class="form-group">
+						<label for="inputWebsite">Why should this cafe be featured on this website?</label>
+						<input type="text" class="form-control" id="inputWebsite" placeholder="Amazing coffee...">
+                    </div>
 
-								</p>
-							</div>
-						</section>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">Check me out</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign in</button>
+				</form>
+                </div>
+			</div>
+		</section>
 
 	</main>
 
@@ -244,18 +257,5 @@
 					href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></p>
 		</div>
 	</footer>
-
-
-	<!-- jQuery ,  Popper.js,  Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
 </body>
-
 </html>
