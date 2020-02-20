@@ -15,10 +15,9 @@ h2, h1 {
     font-weight: 600;
     text-align: center;
     color: #fafafa;
-    margin-bottom: 3rem;
   }
 
-h3 {
+h3, h4, h6 {
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     text-align: center;
@@ -51,11 +50,32 @@ a:hover {
     border-color: #06ad6c;
 }
 
+.btn-primary:hover {
+    background-color: #03623d;
+    border-color: #03623d;
+}
+
 .btn-secondary {
     margin: auto;
     display: block;
     background-color: #06ad6c;
     border-color: #06ad6c;
+}
+
+.btn-secondary:hover {
+    background-color: #03623d;
+    border-color: #03623d;
+}
+
+.btn-outline-secondary {
+    color: #06ad6c;
+    border-color: #06ad6c;
+}
+
+.btn-outline-secondary:hover{
+    color: #fff;
+    background-color: #03623d;
+    border-color: #03623d;
 }
 
 /* CAROUSEL */
@@ -75,10 +95,11 @@ a:hover {
     font-size: 80px;
     font-weight: 600;
     color: #797bc2;
+    padding-top: 5rem;
 }
 
 .carousel-caption p {
-    color: #fff;
+  color: #fff;
 }
 
 .carousel-item {
@@ -124,7 +145,6 @@ a:hover {
      font-weight: 300;
      color: #fafafa;
      padding-top: 5rem;
-     
  }
 
   .jumbotron .container {
@@ -139,7 +159,6 @@ a:hover {
 }
 
 .card-thumbnail {
-    
     width: 100%;
     height: 225px;
 }
@@ -151,18 +170,24 @@ a:hover {
 
 .card-img {
  border: 0;
+ position: relative;
 }
 
 
 /* CONTACT FORMS */
-
-
 
 .contact-form {
     background-color: #e05d53;
     text-align:  left;;
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+.contact-form h1 {
+    font-family: 'Gelasio', serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: #fafafa;
 }
 
 

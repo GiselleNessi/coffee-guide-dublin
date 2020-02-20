@@ -24,14 +24,16 @@
 <!--- NAV MENU -->
 <body data-spy="scroll" data-target="#navbar-coffee" data-offset="0">
 	<header>
+<header>
 		<nav id="navbar-coffee" class="navbar navbar-light bg-light fixed-top">
-			<a class="navbar-brand" href="index.html">coffee | ireland</a>
+			<a class="navbar-brand" href="../index.html">coffee | ireland</a>
 			<ul class="nav nav-pills">
-				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#cafes">Cafés</a></li>
 				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
 		</nav>
+	</header>
 	</header>
 
 	<main role="main">
@@ -41,9 +43,7 @@
 			<div class="container" id="home">
 				<h1>Coffee Guide Ireland </h1>
 				<h5>Explore the best speciality coffee in Ireland</h5>
-				<p>
-					<a href="#cafes" class="btn btn-primary my-2">Explore now</a>
-				</p>
+				<p><a href="#cafes" class="btn btn-primary my-2">Explore now</a></p>
 			</div>
 		</section>
 
@@ -51,6 +51,7 @@
 		<div class="coffee py-5 bg-color-coffee" id="cafes">
 			<div class="container">
 				<h2>Select the location you want to explore <i class="fas fa-mug-hot"></i></h2>
+                </br>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
@@ -165,8 +166,8 @@
 				<h1>Coffee Guide Ireland</h1>
 				<h3>Did we miss your favourite cafe? Get in touch to let us know.</h3>
 				</br>
-				<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
-                Get in touch <i class="fas fa-chevron-down"></i></button>
+				<p><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#cafeForm" aria-expanded="false" aria-controls="cafeForm">
+                Get in touch <i class="fas fa-chevron-down"></i></button></p>
                 <div  class="collapse" id="cafeForm">
 				<form>
 					<div class="form-row">
@@ -207,10 +208,10 @@
 					<div class="form-group">
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck">
-							<label class="form-check-label" for="gridCheck">Check me out</label>
+							<label class="form-check-label" for="gridCheck">GDPR</label>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-primary">Sign in</button>
+					<button type="submit" class="btn btn-primary">Send!</button>
 				</form>
                 </div>
 			</div>
@@ -218,13 +219,15 @@
 	</main>
 
 	<!--- FOOTER -->
-	<footer class="text-muted">
+	<footer>
 		<div class="container">
 			<p class="float-right"><a href="#">Back to top</a></p>
-			<p>Coffee Guide Ireland is a speciality coffee guide for Ireland</p>
-			<p>Follow us <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a
+            <p>Follow us! <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a
 					href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a><a
 					href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></p>
+			<p>Coffee Guide Ireland is a speciality coffee guide for coffee lovers<i class="far fa-heart"></i></p>
+            
+            <p>© 2020 Created by Giselle Chacon</p>        
 		</div>
 	</footer>
 </body>
