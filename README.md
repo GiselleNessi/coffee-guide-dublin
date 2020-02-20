@@ -1,11 +1,22 @@
-# Coffee Guide Ireland
+# Project 1 - Coffee Guide Ireland
 
-# User-Centric Frontend Development - Code Institute
+User Centric Frontend Development Milestone Project - Code Institute
+
+Giselle Chacon
+
+Project Idea: A website for a coffee guide in Ireland
+
+I wanted to create an friendlty, fun and easy guide to speciality coffee in Ireland.
+As I'm a fan of coffee when I travel I like knowing where to get good coffee.
+The website is design for attracting those seeking to know where to get speciality coffee in Ireland, and with the potential to expand as the coffee scene grows, people can easily request to add new cafes.
+This website can potenttially als work as a place for advertising for independents cafes and coffee roasters brands.
+
 
 This is a Coffee Guide website in Ireland. This website highlights the best speciality cafes in Dublin as well as two few other places in Ireland and with the potential to expand as the coffee industry grows in the country.
 #UX
 
 This website is for all coffee lovers visintg Ireland to be able to easily find the best cafes serving speciality coffee.
+
 ## Demo
 
 (make a gif to put in here to show case the website)
@@ -19,6 +30,23 @@ This website is for all coffee lovers visintg Ireland to be able to easily find 
 - As a tourist I want to know the address to the coffee shop so I can easily get there by google maps
 
 (screenshot)
+
+# Strategy
+
+My goal in the design was to make it as easy as possible in a few steps to figure out where to go for the best speciality coffee in Dublin and Ireland. I wanted to make simple and minimal but fun and colourful maintaining a user-friendly design and most importantly mobile first approach.
+
+## Scope
+
+For users, I wanted to provide a quick, simple and fun guide of the best speciality coffee shops in Dublin and Ireland, with all the information the need to find the location and with the potential to expand the website to a bigger lists of coffee shops. A link to googlemaps location of each cafe, social media links and a short description of the place. Additionally a contact form, so if people would like to suggest to add a new cafe in town it can be add it by the owner of the website to expand the data base of coffee shops.
+
+# Structure
+
+In the cafe section on the home page, I wanted the users to be able to select which district of dublin or ireland the want to explore coffee shops. This way the lists of coffee shops is better organized and easy access depending of the area, including a direct link to google maps for find the location of the cafe easily. Additionally a link to social media and opening times.
+
+
+# Surface
+
+A four high contrast colour palette was chosen to create a fun experience but maintaining a simple and minimal look and feel. I use two fonts for the design, the firs font “” for titles and the second font “” for the rest of text content.
 
 # Skeleton
 
@@ -47,25 +75,6 @@ CSS3
 Bootstrap (4.1.3)
 
 # Testing
-
-
-
-# Strategy
-
-My goal in the design was to make it as easy as possible in a few steps to figure out where to go for the best speciality coffee in Dublin and Ireland. I wanted to make simple and minimal but fun and colourful maintaining a user-friendly design and most importantly mobile first approach.
-
-## Scope
-
-For users, I wanted to provide a quick, simple and fun guide of the best speciality coffee shops in Dublin and Ireland, with all the information the need to find the location and with the potential to expand the website to a bigger lists of coffee shops. A link to googlemaps location of each cafe, social media links and a short description of the place. Additionally a contact form, so if people would like to suggest to add a new cafe in town it can be add it by the owner of the website to expand the data base of coffee shops.
-
-# Structure
-
-In the cafe section on the home page, I wanted the users to be able to select which district of dublin or ireland the want to explore coffee shops. This way the lists of coffee shops is better organized and easy access depending of the area, including a direct link to google maps for find the location of the cafe easily. Additionally a link to social media and opening times.
-
-
-# Surface
-
-A four high contrast colour palette was chosen to create a fun experience but maintaining a simple and minimal look and feel. I use two fonts for the design, the firs font “” for titles and the second font “” for the rest of text content.
 
 # Credits
 
