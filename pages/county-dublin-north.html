@@ -91,8 +91,8 @@
 									href="https://www.google.com/maps/place/Ebb+%26+Flow+Coffee/@53.3627283,-6.2182085,15z/data=!4m5!3m4!1s0x0:0x155f68a7119842da!8m2!3d53.3627283!4d-6.2182085"
 									target="_blank"> Open In Google Maps</p></a>
 							<p><i class="fas fa-map-marker-alt"></i> 56 Clontarf Rd, Northside, Dublin 3</p>
-							<p><i class="fas fa-desktop"></i><a href="https://www.ebbandflow.ie/"> Visit website</p></a>
-							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/Ebbflowcoffee/">
+							<p><i class="fas fa-desktop"></i><a href="https://www.ebbandflow.ie/" target="_blank"> Visit website</p></a>
+							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/Ebbflowcoffee/" target="_blank">
 									Follow</p></a>
 						</div>
 					</div>
@@ -116,9 +116,9 @@
 										href="https://www.google.com/maps/place/Happy+Out/@53.3550014,-6.1703958,15z/data=!4m5!3m4!1s0x0:0xe0a5243973cd7bd0!8m2!3d53.3550014!4d-6.1703958"
 										target="_blank"> Open In Google Maps</p></a>
 								<p><i class="fas fa-map-marker-alt"></i> Happy Out, Bull Wall, Bull Island, Clontarf</p>
-								<p><i class="fas fa-desktop"></i><a href="https://www.happyout.ie/"> Visit website</p>
+								<p><i class="fas fa-desktop"></i><a href="https://www.happyout.ie/" target="_blank"> Visit website</p>
 								</a>
-								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/happyoutcafe/">
+								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/happyoutcafe/" target="_blank">
 										Follow</p></a>
 							</div>
 						</div>
@@ -142,9 +142,9 @@
 											href="https://www.google.com/maps/place/Bodega+Coffee/@53.3886299,-6.0727576,15z/data=!4m5!3m4!1s0x0:0xb777e5279cae880!8m2!3d53.3886299!4d-6.0727576"
 											target="_blank"> Open In Google Maps</p></a>
 									<p><i class="fas fa-map-marker-alt"></i> Howth Market, 3a Harbour Rd, Howth</p>
-									<p><i class="fas fa-desktop"></i><a href="http://www.bodega.ie/"> Visit website</p>
+									<p><i class="fas fa-desktop"></i><a href="http://www.bodega.ie/" target="_blank"> Visit website</p>
 									</a>
-									<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/bodegahowth/">
+									<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/bodegahowth/" target="_blank">
 											Follow</p></a>
 								</div>
 							</div>
@@ -167,10 +167,10 @@
 												href="https://www.google.com/maps/place/Clement+%26+Pekoe/@53.3415338,-6.2649483,17z/data=!3m1!4b1!4m5!3m4!1s0x4867089ef78ba80f:0x140ae5efd0d0213!8m2!3d53.3415338!4d-6.2627596?shorturl=1"
 												target="_blank"> Open In Google Maps</p></a>
 										<p><i class="fas fa-map-marker-alt"></i> 50 William St S, Dublin 2</p>
-										<p><i class="fas fa-desktop"></i><a href="https://clementandpekoe.com/"> Visit
+										<p><i class="fas fa-desktop"></i><a href="https://clementandpekoe.com/" target="_blank"> Visit
 												website</p></a>
 										<p><i class="fab fa-facebook-f"></i><a
-												href="https://www.facebook.com/Clement-Pekoe-141294677054/">
+												href="https://www.facebook.com/Clement-Pekoe-141294677054/" target="_blank">
 												Follow</p></a>
 									</div>
 								</div>
@@ -194,17 +194,17 @@
 				<form>
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label for="inputEmail4">Name</label>
-							<input type="email" class="form-control" id="inputEmail4">
+							<label for="inputName">Name</label>
+							<input type="text" class="form-control" id="inputName" required >
                         </div>
 						<div class="form-group col-md-6">
-							<label for="inputPassword4">City</label>
-							<input type="password" class="form-control" id="inputPassword4">
+							<label for="inputCity">City</label>
+							<input type="text" class="form-control" id="inputCity" required >
                         </div>
 					</div>
 					<div class="form-group">
 						<label for="inputAddress">Address</label>
-						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required >
                     </div>
 					<div class="form-group">
 						<label for="inputFacebook">Facebook</label>
@@ -223,10 +223,9 @@
 						<input type="text" class="form-control" id="inputWebsite" placeholder="Cafe website">
                     </div>
 					<div class="form-group">
-						<label for="inputWebsite">Why should this cafe be featured on this website?</label>
-						<input type="text" class="form-control" id="inputWebsite" placeholder="Amazing coffee...">
+						<label for="inputWhy">Why should this cafe be featured on this website?</label>
+						<input type="text" class="form-control" id="inputWhy" placeholder="Amazing coffee..." required >
                     </div>
-
 					<div class="form-group">
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck">

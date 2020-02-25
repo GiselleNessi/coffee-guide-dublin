@@ -92,8 +92,8 @@
 									href="https://www.google.com/maps/place/One+Society/@53.3539713,-6.2566808,15z/data=!4m2!3m1!1s0x0:0xc0456cfa5cd3dfa7?sa=X&ved=2ahUKEwjfx-iL187nAhXlSxUIHcXjA8IQ_BIwCnoECA8QCA"
 									target="_blank"> Open In Google Maps</p></a>
 							<p><i class="fas fa-map-marker-alt"></i> 1 lower gardiner street, Mountjoy, Dublin</p>
-							<p><i class="fas fa-desktop"></i><a href="https://www.onesociety.ie/"> Visit website</p></a>
-							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/onesocietycafe/">
+							<p><i class="fas fa-desktop"></i><a href="https://www.onesociety.ie/" target="_blank"> Visit website</p></a>
+							<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/onesocietycafe/" target="_blank">
 									Follow</p></a>
 						</div>
 					</div>
@@ -118,9 +118,9 @@
 										href="https://www.google.com/maps/place/Love+Supreme+Coffee+Stoneybatter/@53.3530326,-6.2852582,15z/data=!4m2!3m1!1s0x0:0xb65a780d12e6c505?sa=X&ved=2ahUKEwiKrvri1s7nAhVcRhUIHWbTDGIQ_BIwE3oECB0QCA"
 										target="_blank"> Open In Google Maps</p></a>
 								<p><i class="fas fa-map-marker-alt"></i> 57 Manor St, Stoneybatter, Dublin 7</p>
-								<p><i class="fas fa-desktop"></i><a href="https://www.lovesupreme.ie/"> Visit website
+								<p><i class="fas fa-desktop"></i><a href="https://www.lovesupreme.ie/" target="_blank"> Visit website
 								</p></a>
-								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/lovelovesupreme/">
+								<p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/lovelovesupreme/" target="_blank">
 										Follow</p></a>
 							</div>
 						</div>
@@ -144,10 +144,10 @@
 											href="https://www.google.com/maps/place/Vice+Coffee+Inc/@53.3479866,-6.2623343,15z/data=!4m5!3m4!1s0x0:0xb448ccc09b654c12!8m2!3d53.3479866!4d-6.2623343"
 											target="_blank"> Open In Google Maps</p></a>
 									<p><i class="fas fa-map-marker-alt"></i> 54 Middle Abbey St, North City, Dublind</p>
-									<p><i class="fas fa-desktop"></i><a href="https://www.vicecoffeeinc.com/"> Visit
+									<p><i class="fas fa-desktop"></i><a href="https://www.vicecoffeeinc.com/" target="_blank"> Visit
 											website</p></a>
 									<p><i class="fab fa-facebook-f"></i><a
-											href="https://www.facebook.com/ViceCoffeeInc/"> Follow</p></a>
+											href="https://www.facebook.com/ViceCoffeeInc/" target="_blank"> Follow</p></a>
 								</div>
 							</div>
 						</div>
@@ -168,10 +168,10 @@
 												href="https://www.google.com/maps/place/laine,+my+love/@53.3514223,-6.2514489,15z/data=!4m5!3m4!1s0x0:0x9c3dac6c327deb5d!8m2!3d53.3514223!4d-6.2514489"
 												target="_blank"> Open In Google Maps</p></a>
 										<p><i class="fas fa-map-marker-alt"></i> 38 Talbot St, Mountjoy, Dublin 1</p>
-										<p><i class="fas fa-desktop"></i><a href="http://www.lainemylove.com/"> Visit
+										<p><i class="fas fa-desktop"></i><a href="http://www.lainemylove.com/" target="_blank"> Visit
 												website</p></a>
 										<p><i class="fab fa-facebook-f"></i><a
-												href="https://www.facebook.com/lainemylove/"> Follow</p></a>
+												href="https://www.facebook.com/lainemylove/" target="_blank"> Follow</p></a>
 									</div>
 								</div>
 							</div>
@@ -197,7 +197,7 @@
 											<p><i class="fas fa-desktop"></i><a href="http://www.bearmarket.ie/"
 													target="_blank"> Visit website</p></a>
 											<p><i class="fab fa-facebook-f"></i><a
-													href="https://www.facebook.com/BearMarketCoffee/"> Follow</p></a>
+													href="https://www.facebook.com/BearMarketCoffee/" target="_blank"> Follow</p></a>
 										</div>
 									</div>
 								</div>
@@ -219,17 +219,17 @@
 				<form>
 					<div class="form-row">
 						<div class="form-group col-md-6">
-							<label for="inputEmail4">Name</label>
-							<input type="email" class="form-control" id="inputEmail4">
+							<label for="inputName">Name</label>
+							<input type="text" class="form-control" id="inputName" required >
                         </div>
 						<div class="form-group col-md-6">
-							<label for="inputPassword4">City</label>
-							<input type="password" class="form-control" id="inputPassword4">
+							<label for="inputCity">City</label>
+							<input type="text" class="form-control" id="inputCity" required >
                         </div>
 					</div>
 					<div class="form-group">
 						<label for="inputAddress">Address</label>
-						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required >
                     </div>
 					<div class="form-group">
 						<label for="inputFacebook">Facebook</label>
@@ -248,10 +248,9 @@
 						<input type="text" class="form-control" id="inputWebsite" placeholder="Cafe website">
                     </div>
 					<div class="form-group">
-						<label for="inputWebsite">Why should this cafe be featured on this website?</label>
-						<input type="text" class="form-control" id="inputWebsite" placeholder="Amazing coffee...">
+						<label for="inputWhy">Why should this cafe be featured on this website?</label>
+						<input type="text" class="form-control" id="inputWhy" placeholder="Amazing coffee..." required >
                     </div>
-
 					<div class="form-group">
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" id="gridCheck">
