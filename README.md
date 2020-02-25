@@ -6,7 +6,7 @@ This website is a guide for finding the best specialty coffee in Ireland. It hig
 ## Demo
 A live demo can be found [here](https://gisellenessi.github.io/coffee-guide-dublin/).
 
-![Devices Demo](../assets/images/coffee-guide-mockup.png "Devices Demo")
+![Devices Demo](../images/coffee-guide-mockup.png "Devices Demo")
 
 
 ## UX
