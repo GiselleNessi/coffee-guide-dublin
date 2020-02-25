@@ -44,7 +44,7 @@ Contact (wireframe)
 
 ### Surface
 
-![Colour Palette](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/assets/images/colourpallets.png "Colour Palette")
+![Colour Palette](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/assets/images/colours.png "Colour Palette")
 
 A palette of three high contrast colours was chosen to create a fun but minimal feel. 
 
