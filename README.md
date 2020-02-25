@@ -15,12 +15,12 @@ A live demo can be found [here](https://gisellenessi.github.io/coffee-guide-dubl
 
 - As a resident of Dublin and coffee lover, I want to have a list of quality coffee shops, so I know where to find the best coffee in my area and elsewhere.
 
-![Cafe list](../assets/images/cafe-list.png "Cafe list")
+![Cafe list](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/assets/images/cafe-list.png "Cafe list")
 
 
 - As a tourist and coffee lover visiting Ireland, I want to know the exact address of each coffee shop, so I can easily find my way there using Google Maps.
 
-![Google Maps](https://media.giphy.com/media/cmUCLsVkr5hltbZ5cj/giphy.gif "Google Maps")
+![Google Maps](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/assets/images/google-maps.gif "Google Maps")
 
 ### Strategy
 My goal was to design a simple guide outlining the best speciality coffee shops in Ireland, presenting information in a simple but fun and colourful way.
@@ -43,6 +43,8 @@ Cafes (wireframe)
 Contact (wireframe)
 
 ### Surface
+
+[Colour Palette](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/assets/images/colourpallets.png)
 
 A palette of three high contrast colours was chosen to create a fun but minimal feel. 
 
