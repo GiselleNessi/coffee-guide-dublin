@@ -36,11 +36,13 @@ At the bottom of the page users can find the contact form, followed by the foote
 
 ### Skeleton
 
-Home (wireframe)
+[Home wireframe](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/wireframes/wireframes-home.png)
 
-Cafes (wireframe)
+[Cafes wireframe](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/wireframes/wireframe-cafelist.png)
 
-Contact (wireframe)
+[Cafes Location Page wireframe](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/wireframes/cafe-page-wireframe.png)
+
+[Contact wireframe](https://github.com/GiselleNessi/coffee-guide-dublin/blob/master/wireframes/wireframe-contactform.png)
 
 ### Surface
 
