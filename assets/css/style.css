@@ -43,6 +43,10 @@ a:hover {
     background-color: #06ad6c;
 }
 
+.navbar-brand {
+    padding-left: 13px;
+}
+
 /* BUTTONS */
 
 .btn-primary {
