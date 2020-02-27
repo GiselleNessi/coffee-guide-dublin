@@ -71,6 +71,8 @@ I also plan to add new cafes and locations throughout Ireland, pending user feed
 ## Testing
 The website was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 7, X: Chrome and Safari, iPad 10.2”: Chrome and Safari). 
 
+Note: Code formatting in gitpod seems perfect I used CTRL + SHIFT + F, however when you see the code in github text editor doesn't seem to save the same formatting even after pushing code to github.
+
 ### Home
 Every section is highlighted in the navbar as you scroll down the home page. Similarly, by clicking on the links directly from the navbar, the scrollSpy effect will work to bring you to each section.
 
