@@ -158,6 +158,12 @@ a:hover {
   }
 
 
+/* MAPS */
+
+div#map {
+  min-height: 360px;
+}
+
 /* CAFES AND PLACES */
 
  .bg-color-coffee {
